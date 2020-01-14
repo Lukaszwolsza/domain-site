@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+body{
+    background-image: url("../imgs/bcg-img.png");
+    font-family: 'Roboto', sans-serif;
+}
+#content{
+    width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title-in-the-mid{
+    color: #1cf1ff;
+    font-size: 250%;
+    flex: 0 0 25%;
+}
