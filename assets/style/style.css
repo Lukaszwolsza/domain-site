@@ -14,7 +14,7 @@ body{
     position: relative;
 }
 #logo-box{
-    background-color:rgba(0, 0, 0, 0.9);
+    background-color:rgba(29, 64, 64, 0.8);
     width:50%;
     height:90%;
     color:white;
@@ -59,10 +59,10 @@ body{
     padding:0% 0 3% 2%;
 }
 #footer{
-    background-color: black;
+    background-color: #1D4040;
     color:white;
     margin:0;
-    padding:0;
+    padding:1%;
 }
 .footer-links-elements{
     display: inline-block;
@@ -113,6 +113,19 @@ body{
     height:5%;
     border:2px solid black;
     background-color: white;
+    transition: 1s linear;
+}
+.btn-send-contact-form:hover{
+    text-align: center;
+    margin: 0 auto;
+    border-radius:15px;
+    width:10%;
+    height:5%;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    transition: 1s linear;
+    cursor: pointer;
 }
 .hamburger-menu{
     width:40px;
@@ -135,4 +148,36 @@ body{
 }
 .hamburger-menu::after{
     transform:translateY(25px);
+}
+.small-icon-media{
+    width:25%;
+}
+.small-icon-media:hover{
+    width:25%;
+    cursor: pointer;
+}
+#contact-box{
+    margin:5% 0;
+}
+#parallax-box-img{
+    background-image: url("../imgs/paralax-moutains.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: brightness(60%);
+}
+#white-page-info{
+    padding:3.5%;
+}
+#parallax-box-img-second{
+    background-image: url("../imgs/paralax-moutains1.jpg");
+    filter: brightness(60%);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
 }
